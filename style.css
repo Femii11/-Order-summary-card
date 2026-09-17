@@ -99,6 +99,17 @@ span p {
   font-weight: 900;
   max-height: fit-content;
 }
+.change:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 70%);
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.payment:hover {
+  background: hsl(245, 75%, 70%);
+}
 .payment {
   width: 90%;
   max-width: 21rem;
